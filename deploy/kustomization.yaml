@@ -1,0 +1,9 @@
+resources:
+  - configmap.yaml
+  - deployment.yaml
+  - namespace.yaml
+  - service.yaml
+  - storage.yaml
+commonLabels:
+  app: meeting-bot
+
