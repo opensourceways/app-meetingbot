@@ -8,7 +8,6 @@ metadata:
   annotations:
 spec:
   externalTrafficPolicy: Cluster
-  loadBalancerIP: 159.138.53.21
   ports:
   - port: 80
     name: meet-log-http
