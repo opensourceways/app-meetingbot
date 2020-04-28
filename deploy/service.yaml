@@ -4,8 +4,6 @@ apiVersion: v1
 kind: Service
 metadata:
   name: meetbot-service
-  namespace: meeting
-  annotations:
 spec:
   externalTrafficPolicy: Cluster
   ports:

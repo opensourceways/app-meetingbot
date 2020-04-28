@@ -3,7 +3,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: meet-bot
-  namespace: meeting
   labels:
     app: meet-bot-dep
 spec:
