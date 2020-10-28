@@ -5,7 +5,6 @@ kind: Service
 metadata:
   name: meetbot-service
 spec:
-  externalTrafficPolicy: Cluster
   ports:
   - port: 80
     name: meet-log-http
@@ -17,4 +16,5 @@ spec:
     protocol: TCP
   selector:
     app: meet-bot
-  type: LoadBalancer
+  type: ClusterIP
+
